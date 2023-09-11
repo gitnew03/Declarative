@@ -13,7 +13,7 @@ pipeline {
       }
       stage('three') {
         steps {
-          mail bcc: '', body: '', cc: '', from: '', replyTo: '', subject: '', to: 'gitpractice03@gmail.com'
+          mail bcc: '', body: 'hello', cc: '', from: '', replyTo: '', subject: 'hi', to: 'gitpractice03@gmail.com'
         }
       }
     }
